@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+
+    <style>
+
+        *{
+            font-family: "Poppins", sans-serif;
+            background-color: #fff8e7;
+            
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .containerHead{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .containerMid{
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+        .containerImage{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-left: 20px;
+            margin-top: 30px;
+        
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            font-size: 8em;
+            text-align: center;
+            border-radius: 15px;
+           
+        }
+
+        #box1{
+            background-color: red;
+        }
+
+        #box2{
+            background-color: greenyellow;
+        }
+
+        #box3{
+            background-color: blue;
+        }
+
+        #box4{
+            background-color: crimson;
+        }
+
+        #headingImage{
+            height : 25px;
+            margin-top: 10px;
+        }
+
+        .mid{
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        #span{
+            color: rgb(2, 2, 102);
+        }
+
+        #flower{
+            height: 130px;
+            width: 200px;
+        }
+
+        #bridge{
+            height: 130px;
+            width: 200px;
+        }
+
+        #beautyLabel{
+            font-weight: bolder;
+            font-size: medium;
+        }
+
+        #beautyPara{
+            font-size: x-small;
+            margin-top: 20px;
+        }
+
+        #constructionLabel{
+            font-weight: bolder;
+            font-size: medium;
+        }
+
+        #constructionPara{
+            font-size: x-small;
+            margin-top: 20px;
+        }
+
+        .beautiful{
+            margin: 20px;
+        }
+
+        .construction{
+            margin: 20px;
+        }
+
+        .footer {
+            margin-top: 150px;
+            margin-right: 30px;
+            color: blue;      
+            text-align: end;
+            font-size: x-small;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="containerHead">
+
+            <div class="heading">
+                <img src="logo.png" id="headingImage">
+            </div>
+            
+                 
+    </div>
+
+    <div class="containerMid">
+        <div class="mid">
+            <label for="">We are a <span id="span">Creative</span></label><br>
+            <label for="">Design Agency</label>
+        </div> 
+    </div>
+
+
+    <div class="containerImage">
+        <div>
+            <img src="beautiful.jpg" alt="beautiful" id="flower">
+        </div>
+        <div class="beautiful">
+            <label id="beautyLabel">Beauty</label><br>
+
+            <div id="beautyPara">
+            <label>We strive to create the most beautiful websites for your needs. Working closely with you to design and develop an amazing website for your business.</label>
+            </div>
+
+        </div>
+        <div>
+            <img src="construction.jpg" alt="construction" id="bridge">
+        </div>
+        <div class="construction">
+            <label id="constructionLabel">Construction</label><br>
+            <div id="constructionPara"><label>Built by our team of professional developers, we ensure the most rigourous and modern websites. Built from scratch using HTML and CSS,Only the best for you.</label></div>
+        </div>
+    </div>
+
+    <div class="footer">Create.Develop.Design.</div>
+
+</body>
+</html>
